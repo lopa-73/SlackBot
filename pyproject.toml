@@ -1,6 +1,10 @@
 [project]
 authors = []
-dependencies = ["python-dotenv==1.0.1", "slack_bolt==1.20.1"]
+dependencies = [
+    "python-dotenv==1.0.1",
+    "slack_bolt==1.20.1",
+    "apscheduler==3.10.4",
+]
 description = ""
 name = "src"
 readme = "README.md"
